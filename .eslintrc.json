@@ -29,10 +29,10 @@
         "prettier"
     ],
     "rules": {
+      "react/react-in-jsx-scope": "off",
+      "react/prop-types": 0,
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "warn",
-      "react/props-types": "0",
-      "react/react-in-jsx-scope": "off",
       "@typescript-eslint/explicit-module-boundary-types": "off"
     }
 }
